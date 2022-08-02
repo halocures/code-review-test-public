@@ -1,0 +1,63 @@
+.container {
+  font-size: 16px;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+
+.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 28.5px;
+  width: 500px;
+  margin: 0 auto 0;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  border-radius: 4px;
+  height: 36px;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+  display: flex;
+}
+
+.wishlist-button {
+  margin: unset;
+  margin-left: 24px;
+}
+.wishlist-button:nth-child(2) {
+  margin-left: auto;
+}
+
+.hint {
+  font-size: 0.9rem;
+  font-style: italic;
+}
